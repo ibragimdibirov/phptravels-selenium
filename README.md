@@ -2,7 +2,7 @@
 
 ### Step 1
 
-Install Python 3: https://gist.github.ibm.com/nicolae/9663a250a819279298b78e9ea6d1ac94#file-customize_dsxl_cluster-py-L27
+Install Python 3
 
 Install prereq Python modules.
 
