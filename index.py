@@ -1,6 +1,3 @@
-import os
-import random
-import string
 import time
 
 import unittest
@@ -23,8 +20,8 @@ class AssignTest(unittest.TestCase):
     options.add_argument('--ignore-certificate-errors')
     options.add_argument('--no-sandbox')
     options.add_argument("--window-size=1366,788")
-    cls.email = "user@phptravels.com"
-    cls.password = "demouser"
+    cls.email = "EMAIL-HERE"
+    cls.password = "PASSWORD-HERE"
     cls.url="http://www.phptravels.net"
     cls.driver = webdriver.Chrome(chrome_options=options)
     cls.wait = WebDriverWait(cls.driver, 10)
