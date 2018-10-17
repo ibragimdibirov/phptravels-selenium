@@ -7,7 +7,7 @@ Install Python 3
 Install prereq Python modules.
 
 ```
-pip3 install selenium==3.6.0 && \
+pip3 install selenium==3.6.0
 ```
 
 ### Step 2
